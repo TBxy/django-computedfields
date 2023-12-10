@@ -2,8 +2,11 @@
 name = "django-computedfields"
 version = "0.2.5"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["netzkolchose <j.breitbart@netzkolchose.de>"]
 readme = "README.md"
+packages = [{"include"= "computedfields"}]
+license = "MIT"
+url = "https://github.com/netzkolchose/django-computedfields"
 
 [tool.poetry.dependencies]
 python = "^3.10"
